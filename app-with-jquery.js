@@ -239,7 +239,7 @@ function initializeJQueryFeatures() {
 // Vérification de l'authentification sur chaque page (code existant)
 function checkAuth() {
   // Pages publiques qui ne nécessitent PAS de connexion
-  const publicPages = ["login.html", "registre.html", "index1.html", "about.html", "contact.html"]
+  const publicPages = ["login.html", "registre.html", "index.html", "about.html", "contact.html"]
   const currentPage = window.location.pathname.split("/").pop()
 
   // Mettre à jour la barre de navigation même sur les pages publiques

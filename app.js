@@ -141,7 +141,7 @@ function initJQueryFeatures() {
 // Vérification de l'authentification sur chaque page
 function checkAuth() {
   // Pages publiques qui ne nécessitent PAS de connexion
-  const publicPages = ["login.html", "registre.html", "index1.html", "about.html", "contact.html"]
+  const publicPages = ["login.html", "registre.html", "index.html", "about.html", "contact.html"]
   const currentPage = window.location.pathname.split("/").pop()
 
   // Mettre à jour la barre de navigation même sur les pages publiques
@@ -186,7 +186,7 @@ function updateNavbarForAuth() {
   // Tous les éléments de navigation possibles
   const navItems = {
     // Pages publiques
-    home: document.querySelector('a[href="index1.html"]')?.parentElement,
+    home: document.querySelector('a[href="index.html"]')?.parentElement,
     about: document.querySelector('a[href="about.html"]')?.parentElement,
     contact: document.querySelector('a[href="contact.html"]')?.parentElement,
 
